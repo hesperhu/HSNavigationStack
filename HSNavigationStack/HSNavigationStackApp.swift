@@ -11,7 +11,10 @@ import SwiftUI
 struct HSNavigationStackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            HSNavigationStackView()
+//            HSNavigationStackPathView()
+//            HSNavigationMultiStackPathView()
+            HSNavigationStaticStackPathView()
         }
     }
 }
